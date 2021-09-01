@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Implementación | ObjetoAprendizajeTesis </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Alejandro Enríquez &amp; Doménica Merchán" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">ObjetoAprendizajeTesis</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción</a></li>
+   <li><a href="reconocimiento_del_habla.html" class="no-ch">Reconocimiento del Habla</a></li>
+   <li><a href="cmara_virtual.html" class="no-ch">Cámara Virtual</a></li>
+   <li><a href="proceso_de_subtitulacin.html" class="no-ch">Proceso de Subtitulación</a></li>
+   <li><a href="modo_de_funcionamiento.html" class="no-ch">Modo de Funcionamiento</a></li>
+   <li><a href="requisitos_para_usar.html" class="no-ch">Requisitos para Usar</a></li>
+   <li><a href="instalacin.html" class="no-ch">Instalación</a></li>
+   <li id="active"><a href="implementacin.html" class="active no-ch">Implementación</a></li>
+   <li><a href="uso.html" class="no-ch">Uso</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="instalacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="uso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Implementación</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id7">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Proceso a realizar sobre la herramienta OBS</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta7_124_2" class="block iDevice_content">
+<div class="exe-text"><p>Una vez abierto OBS procedemos a realizar los siguientes pasos:</p>
+<p></p>
+<div class="exe-fx exe-carousel">
+<h2>Importar la escena</h2>
+<p>En el menú superior buscamos la opción "Colección de escenas" o presionamos "alt+s". Damos click en el botón que indica "Importar"</p>
+<p></p>
+<p><img src="img_1.png" alt="Imagen 2: Cargar escena predefinida" title="Importar Escena" width="547" height="354" /></p>
+<h2>Cargamos el archivo</h2>
+<p>Entre los archivos descargados existe el archivo "escena_subtitulado" que generará y organizará automáticamente los componentes necesarios para la implementacióń. Utilizando el navegador de archivos de OBS encontraremos este archivo y presionaremos el botón de "Importar"</p>
+<p></p>
+<p><img src="img2.png" alt="Imagen 2: Cargar escena predefinida" title="Importar Escena" width="870" height="448" /></p>
+<h2>Cargamos el resultado del plugin</h2>
+<p>Damos click derecho en el componente "Subtitulador" y entramos a propiedades. El plugin realizado escribe los resultados en un archivo formato ".html" el cual es compatible con la herramienta OBS y que con la importación del archivo anterior ya tenemos, unicamente tendremos que modificar el enlace por la ruta en la que se encuentra el archivo "scans.html". Una vez cargado esto procedemos a guardar y actualizar el componente</p>
+<p></p>
+<p><img src="media.io_jmKObHzE.gif" alt="Propiedades  y cargar el plugin" title="Cargar plugin de subtitulado" width="605" height="454" /></p>
+<h2>Iniciar captura de video</h2>
+<p>Para completar la configuración sobre la herramienta OBS debemos encontrar el compontente llamado "Webcam", darle click derecho y entrar a sus propiedades. En el primer parámetro tenemos la opción para seleccionar el dispositivo, y pondremos la cámara que tengamos disponible</p>
+<p></p>
+<p><img src="img4.png" alt="Configurar la cámara " title="Configurar la cámara" width="1074" height="895" /></p>
+<h2>Cámara Virtual</h2>
+<p>Una vez tengamos la imagen en pantalla tal y como queremos procedemos a crear la cámara virtual para su posterior implementación en plataformas de videoconferencia. Entonces para la activación de la cámara virtual debemos encontrar el panel de controles en la parte inferior derecha, ahí tendremos la opción de "Iniciar Cámara Virtual". Nos pedirá permisos para su creación.</p>
+<p></p>
+<p><img src="img5.png" alt="Iniciar cámara virtual" title="Iniciar cámara virtual" width="953" height="885" /></p>
+</div>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="instalacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="uso.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_cedec_js.js"></script></body></html>
